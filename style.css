@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+body {
+    background-color: #FFFEFC;
+}
+
+ol, ul {
+	list-style: none;
+    text-decoration: none;
+}
+
+a, a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* 헤더 */
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+.header-outer {
+    margin: 0px 20px;
+}
+
+.header-inner {
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gnb {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.btn {
+    height: 30px;
+    padding: 0 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: transparent;
+}
+
+.btn:hover {
+    background-color: #F9F5F1;
+}
+
+.btn__inner { 
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+
+/* 메인 */
+.container {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0px 60px;
+}
+
+.container__align--center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container__margin--20 {
+    margin: 20px 0px;
+}
+
+.main-title {
+    font-size: 74px;
+    font-weight: 700;
+}
+
+.sub-title {
+    margin-top: 8px;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.signup {
+    display: flex;
+    height: 36px;
+}
+
+.input-wrap input {
+    height: 36px;
+    padding: 4px 10px;
+    border: none;
+    outline: none;
+    box-shadow: rgba(15, 15, 15, 0.1) 0px 0px 0px 1px inset;
+}
+
+.btn-register {
+    padding: 1px 12px;
+    color: #ffffff;
+    background-color: #e16259;
+    border: 1px solid #be5643;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.caption {
+    margin: 7px 0px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+/* 푸터 */
+
+.footer-outer {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.footer-inner {
+    display: flex;
+    padding: 40px 0px;
+}
+
+
+/*  */
+
+.divider {
+    width: 1px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 0px 10px;
+}
+
+.spacer {
+    width: 0;
+    height: 80px;
+}
